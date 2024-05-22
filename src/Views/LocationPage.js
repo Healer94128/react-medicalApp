@@ -315,6 +315,5 @@ class LocationPage extends Component {
 }
 
 export default GoogleApiWrapper({
-  apiKey: "AIzaSyB9txFFascb8Jcj8qV6ET2mtXZtwqqzMiU",
   libraries: ["visualization"],
 })(LocationPage);
